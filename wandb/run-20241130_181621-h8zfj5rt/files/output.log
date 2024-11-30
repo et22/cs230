@@ -106,3 +106,5 @@ True
  num. neurons : 95
   epoch 19 loss: 0.09903529707673957 corr: 0.42849431443456
  num. neurons : 95
+  epoch 20 loss: 0.09903822525633567 corr: 0.42679746647166056
+ num. neurons : 95

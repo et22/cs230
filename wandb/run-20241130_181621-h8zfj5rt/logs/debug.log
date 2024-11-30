@@ -26,3 +26,13 @@ config: {'modality': 'video', 'win_size': 240, 'pos': (400, 180), 'feat_ext_type
 2024-11-30 18:16:22,017 INFO    MainThread:2027846 [wandb_run.py:_redirect():2370] Wrapping output streams.
 2024-11-30 18:16:22,017 INFO    MainThread:2027846 [wandb_run.py:_redirect():2395] Redirects installed.
 2024-11-30 18:16:22,017 INFO    MainThread:2027846 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-30 18:20:29,034 INFO    MainThread:2027846 [wandb_run.py:_finish():2155] finishing run et22/video-cs230/h8zfj5rt
+2024-11-30 18:20:29,035 INFO    MainThread:2027846 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-30 18:20:29,035 INFO    MainThread:2027846 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-30 18:20:29,035 INFO    MainThread:2027846 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-30 18:20:29,035 INFO    MainThread:2027846 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-30 18:20:29,036 INFO    MainThread:2027846 [wandb_run.py:_restore():2402] restore
+2024-11-30 18:20:29,036 INFO    MainThread:2027846 [wandb_run.py:_restore():2408] restore done
+2024-11-30 18:20:30,708 INFO    MainThread:2027846 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-30 18:20:30,709 INFO    MainThread:2027846 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-30 18:20:30,729 INFO    MainThread:2027846 [wandb_run.py:_footer_sync_info():3921] logging synced files

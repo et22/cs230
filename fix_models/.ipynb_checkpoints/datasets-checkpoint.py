@@ -59,7 +59,7 @@ class VideoDataset(Dataset):
         return frames, targets
 
 # construct datasets and dataloaders for a given session
-def get_datasets_and_loaders(input_dir, session_id, modality, exp_var_threshold, stim_dur_ms, stim_size, win_size, stimulus_dir, batch_size, first_frame_only = False, blur_sigma=0, pos=(400,180)):
+def get_datasets_and_loaders(input_dir, session_id, modality, exp_var_threshold, stim_dur_ms, stim_size, win_size, stimulus_dir, batch_size, first_frame_only = False, blur_sigma=0, pos=(400,180), test_bs = False):
     with open(join(input_dir, f"{session_id}.pickle"), "rb") as f:
         model_input = pickle.load(f)
 
@@ -80,5 +80,8 @@ def get_datasets_and_loaders(input_dir, session_id, modality, exp_var_threshold,
 
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, num_workers = 2)
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers = 2)
+
+    if test_bs:
+        test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False, num_workers = 2)
 
     return train_dataset, test_dataset, train_loader, test_loader
