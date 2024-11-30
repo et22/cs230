@@ -1,0 +1,6 @@
+README.md
+setup.py
+fix_models.egg-info/PKG-INFO
+fix_models.egg-info/SOURCES.txt
+fix_models.egg-info/dependency_links.txt
+fix_models.egg-info/top_level.txt

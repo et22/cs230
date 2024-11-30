@@ -1,0 +1,17 @@
+{"time":"2024-11-30T13:42:16.765026061Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-30T13:42:16.765075421Z","level":"INFO","msg":"created symlink","path":"/src/models/cs230/wandb/run-20241130_134216-huaqq145/logs/debug-core.log"}
+{"time":"2024-11-30T13:42:16.980486078Z","level":"INFO","msg":"created new stream","id":"huaqq145"}
+{"time":"2024-11-30T13:42:16.980535238Z","level":"INFO","msg":"stream: started","id":"huaqq145"}
+{"time":"2024-11-30T13:42:16.980614217Z","level":"INFO","msg":"sender: started","stream_id":"huaqq145"}
+{"time":"2024-11-30T13:42:16.980609607Z","level":"INFO","msg":"writer: Do: started","stream_id":"huaqq145"}
+{"time":"2024-11-30T13:42:16.980655586Z","level":"INFO","msg":"handler: started","stream_id":"huaqq145"}
+{"time":"2024-11-30T13:42:17.198814823Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T13:50:22.890837005Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T13:50:22.891815531Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T13:50:23.451063942Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T13:50:23.620286188Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T13:50:24.644989516Z","level":"INFO","msg":"stream: closing","id":"huaqq145"}
+{"time":"2024-11-30T13:50:24.645037935Z","level":"INFO","msg":"handler: closed","stream_id":"huaqq145"}
+{"time":"2024-11-30T13:50:24.645056995Z","level":"INFO","msg":"writer: Close: closed","stream_id":"huaqq145"}
+{"time":"2024-11-30T13:50:24.645105764Z","level":"INFO","msg":"sender: closed","stream_id":"huaqq145"}
+{"time":"2024-11-30T13:50:24.645146764Z","level":"INFO","msg":"stream: closed","id":"huaqq145"}

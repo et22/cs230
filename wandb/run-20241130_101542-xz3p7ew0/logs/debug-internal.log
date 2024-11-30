@@ -1,0 +1,25 @@
+{"time":"2024-11-30T10:15:42.800735486Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-30T10:15:42.800780586Z","level":"INFO","msg":"created symlink","path":"/src/models/cs230/wandb/run-20241130_101542-xz3p7ew0/logs/debug-core.log"}
+{"time":"2024-11-30T10:15:43.019213475Z","level":"INFO","msg":"created new stream","id":"xz3p7ew0"}
+{"time":"2024-11-30T10:15:43.019269794Z","level":"INFO","msg":"stream: started","id":"xz3p7ew0"}
+{"time":"2024-11-30T10:15:43.019389322Z","level":"INFO","msg":"sender: started","stream_id":"xz3p7ew0"}
+{"time":"2024-11-30T10:15:43.019402402Z","level":"INFO","msg":"writer: Do: started","stream_id":"xz3p7ew0"}
+{"time":"2024-11-30T10:15:43.01952942Z","level":"INFO","msg":"handler: started","stream_id":"xz3p7ew0"}
+{"time":"2024-11-30T10:15:43.321647536Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T10:15:43.587812698Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-30T10:16:09.960120785Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-30T10:16:10.274421534Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-30T10:16:10.475174137Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-30T10:16:10.480425552Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-30T10:16:11.111419436Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-30T10:16:11.114785518Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-30T10:16:11.564905693Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-30T10:16:11.587022985Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T10:16:11.588142299Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T10:16:12.587816211Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.785268675}],"total_operations":1}}
+{"time":"2024-11-30T10:16:13.157140092Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T10:16:14.30368207Z","level":"INFO","msg":"stream: closing","id":"xz3p7ew0"}
+{"time":"2024-11-30T10:16:14.303722139Z","level":"INFO","msg":"handler: closed","stream_id":"xz3p7ew0"}
+{"time":"2024-11-30T10:16:14.303740339Z","level":"INFO","msg":"writer: Close: closed","stream_id":"xz3p7ew0"}
+{"time":"2024-11-30T10:16:14.303813298Z","level":"INFO","msg":"sender: closed","stream_id":"xz3p7ew0"}
+{"time":"2024-11-30T10:16:14.303904537Z","level":"INFO","msg":"stream: closed","id":"xz3p7ew0"}

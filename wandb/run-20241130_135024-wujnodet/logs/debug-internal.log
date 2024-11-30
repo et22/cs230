@@ -1,0 +1,17 @@
+{"time":"2024-11-30T13:50:24.688970521Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-30T13:50:24.68901794Z","level":"INFO","msg":"created symlink","path":"/src/models/cs230/wandb/run-20241130_135024-wujnodet/logs/debug-core.log"}
+{"time":"2024-11-30T13:50:24.905113278Z","level":"INFO","msg":"created new stream","id":"wujnodet"}
+{"time":"2024-11-30T13:50:24.905165367Z","level":"INFO","msg":"stream: started","id":"wujnodet"}
+{"time":"2024-11-30T13:50:24.905242886Z","level":"INFO","msg":"writer: Do: started","stream_id":"wujnodet"}
+{"time":"2024-11-30T13:50:24.905288435Z","level":"INFO","msg":"sender: started","stream_id":"wujnodet"}
+{"time":"2024-11-30T13:50:24.905348645Z","level":"INFO","msg":"handler: started","stream_id":"wujnodet"}
+{"time":"2024-11-30T13:50:25.133644723Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-30T13:58:28.212839564Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-30T13:58:28.213769659Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-30T13:58:28.75653662Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-30T13:58:28.889506749Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2024-11-30T13:58:29.914409972Z","level":"INFO","msg":"stream: closing","id":"wujnodet"}
+{"time":"2024-11-30T13:58:29.914454981Z","level":"INFO","msg":"handler: closed","stream_id":"wujnodet"}
+{"time":"2024-11-30T13:58:29.914473231Z","level":"INFO","msg":"writer: Close: closed","stream_id":"wujnodet"}
+{"time":"2024-11-30T13:58:29.91456054Z","level":"INFO","msg":"sender: closed","stream_id":"wujnodet"}
+{"time":"2024-11-30T13:58:29.914642108Z","level":"INFO","msg":"stream: closed","id":"wujnodet"}

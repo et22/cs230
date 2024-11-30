@@ -1,0 +1,38 @@
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Current SDK version is 0.18.7
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Configure stats pid to 1925707
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Loading settings from /root/.config/wandb/settings
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Loading settings from /src/models/cs230/wandb/settings
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-11-30 14:16:23,423 INFO    MainThread:1925707 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-30 14:16:23,424 INFO    MainThread:1925707 [wandb_init.py:_log_setup():533] Logging user logs to /src/models/cs230/wandb/run-20241130_141623-g0mb6qhl/logs/debug.log
+2024-11-30 14:16:23,424 INFO    MainThread:1925707 [wandb_init.py:_log_setup():534] Logging internal logs to /src/models/cs230/wandb/run-20241130_141623-g0mb6qhl/logs/debug-internal.log
+2024-11-30 14:16:23,424 INFO    MainThread:1925707 [wandb_init.py:_jupyter_setup():479] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f802816ba30>
+2024-11-30 14:16:23,424 INFO    MainThread:1925707 [wandb_init.py:init():619] calling init triggers
+2024-11-30 14:16:23,424 INFO    MainThread:1925707 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'modality': 'video', 'win_size': 240, 'pos': (400, 180), 'feat_ext_type': 'resnet3d', 'stim_size': 32, 'stim_dur_ms': 200, 'stim_shape': (1, 3, 5, 32, 32), 'first_frame_only': False, 'exp_var_thresholds': [0.25, 0.25, 0.25], 'batch_size': 16, 'layer': 'layer1', 'use_sigma': True, 'center_readout': False, 'use_pool': True, 'pool_size': 4, 'pool_stride': 2, 'use_pretrained': True, 'flatten_time': True, 'lr': 0.001, 'num_epochs': 40, 'l2_weight': 1, 'wandb': True, 'save': True, 'model_name': 'frozen pretrained', 'session_id': '082924'}
+2024-11-30 14:16:23,424 INFO    MainThread:1925707 [wandb_init.py:init():669] starting backend
+2024-11-30 14:16:23,424 INFO    MainThread:1925707 [wandb_init.py:init():673] sending inform_init request
+2024-11-30 14:16:23,426 INFO    MainThread:1925707 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-30 14:16:23,426 INFO    MainThread:1925707 [wandb_init.py:init():686] backend started and connected
+2024-11-30 14:16:23,437 INFO    MainThread:1925707 [wandb_run.py:_label_probe_notebook():1339] probe notebook
+2024-11-30 14:16:23,437 INFO    MainThread:1925707 [wandb_run.py:_label_probe_notebook():1349] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-11-30 14:16:23,437 INFO    MainThread:1925707 [wandb_init.py:init():781] updated telemetry
+2024-11-30 14:16:23,446 INFO    MainThread:1925707 [wandb_init.py:init():814] communicating run to backend with 90.0 second timeout
+2024-11-30 14:16:23,878 INFO    MainThread:1925707 [wandb_init.py:init():867] starting run threads in backend
+2024-11-30 14:16:24,019 INFO    MainThread:1925707 [wandb_run.py:_console_start():2456] atexit reg
+2024-11-30 14:16:24,019 INFO    MainThread:1925707 [wandb_run.py:_redirect():2305] redirect: wrap_raw
+2024-11-30 14:16:24,019 INFO    MainThread:1925707 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2024-11-30 14:16:24,019 INFO    MainThread:1925707 [wandb_run.py:_redirect():2395] Redirects installed.
+2024-11-30 14:16:24,020 INFO    MainThread:1925707 [wandb_init.py:init():911] run started, returning control to user process
+2024-11-30 14:24:25,831 INFO    MainThread:1925707 [wandb_run.py:_finish():2155] finishing run et22/video-cs230/g0mb6qhl
+2024-11-30 14:24:25,831 INFO    MainThread:1925707 [jupyter.py:save_history():459] not saving jupyter history
+2024-11-30 14:24:25,831 INFO    MainThread:1925707 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-11-30 14:24:25,831 INFO    MainThread:1925707 [wandb_init.py:_jupyter_teardown():461] cleaning up jupyter logic
+2024-11-30 14:24:25,832 INFO    MainThread:1925707 [wandb_run.py:_atexit_cleanup():2420] got exitcode: 0
+2024-11-30 14:24:25,832 INFO    MainThread:1925707 [wandb_run.py:_restore():2402] restore
+2024-11-30 14:24:25,832 INFO    MainThread:1925707 [wandb_run.py:_restore():2408] restore done
+2024-11-30 14:24:27,599 INFO    MainThread:1925707 [wandb_run.py:_footer_history_summary_info():3960] rendering history
+2024-11-30 14:24:27,600 INFO    MainThread:1925707 [wandb_run.py:_footer_history_summary_info():3992] rendering summary
+2024-11-30 14:24:27,614 INFO    MainThread:1925707 [wandb_run.py:_footer_sync_info():3921] logging synced files

@@ -1,0 +1,47 @@
+readout input shape: 15360
+model.1.linear.weight
+torch.Size([95, 15360])
+True
+model.1.linear.bias
+torch.Size([95])
+True
+  epoch 1 loss: 0.1360421685648214 corr: 0.018646517129874102
+ num. neurons : 95
+  epoch 2 loss: 0.13247152666770975 corr: 0.004803005988310479
+ num. neurons : 95
+  epoch 3 loss: 0.12975116574951492 corr: 0.03455693755503983
+ num. neurons : 95
+  epoch 4 loss: 0.1272927403450012 corr: 0.011582845075603119
+ num. neurons : 95
+  epoch 5 loss: 0.1255346815623538 corr: 0.037274761375642756
+ num. neurons : 95
+  epoch 6 loss: 0.12401995721287752 corr: -0.0024397353897709973
+ num. neurons : 95
+  epoch 7 loss: 0.12262563330964893 corr: 0.0495670665116475
+ num. neurons : 95
+  epoch 8 loss: 0.12117280105021612 corr: 0.038864721137023876
+ num. neurons : 95
+  epoch 9 loss: 0.12044504281738042 corr: 0.031562478900961664
+ num. neurons : 95
+  epoch 10 loss: 0.11966460749741 corr: 0.036550479648757184
+ num. neurons : 95
+  epoch 11 loss: 0.11815509047183691 corr: -0.010302736096494514
+ num. neurons : 95
+  epoch 12 loss: 0.11841890094167899 corr: -0.005856401075906762
+ num. neurons : 95
+  epoch 13 loss: 0.11722282564452806 corr: -0.004405795795842348
+ num. neurons : 95
+  epoch 14 loss: 0.11667665904729155 corr: 0.03205255013036987
+ num. neurons : 95
+  epoch 15 loss: 0.11639590544226282 corr: 0.0203929242076254
+ num. neurons : 95
+  epoch 16 loss: 0.11558492707956523 corr: 0.03395251104573123
+ num. neurons : 95
+  epoch 17 loss: 0.115590160492203 corr: 0.030006822748337283
+ num. neurons : 95
+  epoch 18 loss: 0.11485462251133943 corr: 0.02221393824780996
+ num. neurons : 95
+  epoch 19 loss: 0.11456707435128577 corr: -0.06206291032253368
+ num. neurons : 95
+  epoch 20 loss: 0.11431846949442519 corr: 0.06958956908528709
+ num. neurons : 95

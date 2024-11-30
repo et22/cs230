@@ -1,0 +1,74 @@
+readout input shape: 320
+model.0.stim
+torch.Size([1, 3, 5, 32, 32])
+True
+model.0.core.stem.0.weight
+torch.Size([64, 3, 3, 7, 7])
+True
+model.0.core.stem.1.weight
+torch.Size([64])
+True
+model.0.core.stem.1.bias
+torch.Size([64])
+True
+model.0.core.layer1.0.conv1.0.weight
+torch.Size([64, 64, 3, 3, 3])
+True
+model.0.core.layer1.0.conv1.1.weight
+torch.Size([64])
+True
+model.0.core.layer1.0.conv1.1.bias
+torch.Size([64])
+True
+model.1.mu
+torch.Size([54, 2])
+True
+model.1.sigma
+torch.Size([54])
+True
+model.1.poisson_linear.linear.weight
+torch.Size([54, 320])
+True
+model.1.poisson_linear.linear.bias
+torch.Size([54])
+True
+  epoch 1 loss: 0.11542467305689683 corr: 0.028716704857319815
+ num. neurons : 54
+  epoch 2 loss: 0.11036782264709473 corr: 0.09549239197286756
+ num. neurons : 54
+  epoch 3 loss: 0.11006301291194963 corr: 0.08663872011856187
+ num. neurons : 54
+  epoch 4 loss: 0.10992128089622215 corr: 0.06881272590273341
+ num. neurons : 54
+  epoch 5 loss: 0.10977907121917348 corr: 0.14203829583079683
+ num. neurons : 54
+  epoch 6 loss: 0.10945251912246516 corr: 0.17703328353739686
+ num. neurons : 54
+  epoch 7 loss: 0.10914434509512819 corr: 0.16364307971518402
+ num. neurons : 54
+  epoch 8 loss: 0.10901655120614134 corr: 0.14577400104978738
+ num. neurons : 54
+  epoch 9 loss: 0.10865546538506025 corr: 0.18374363927120746
+ num. neurons : 54
+  epoch 10 loss: 0.10852978841758068 corr: 0.22334982234752931
+ num. neurons : 54
+  epoch 11 loss: 0.1080217507444782 corr: 0.254361133327083
+ num. neurons : 54
+  epoch 12 loss: 0.10790910697277681 corr: 0.25776126176837505
+ num. neurons : 54
+  epoch 13 loss: 0.10770733374136465 corr: 0.2481956986335255
+ num. neurons : 54
+  epoch 14 loss: 0.10751459233554793 corr: 0.24877533273979593
+ num. neurons : 54
+  epoch 15 loss: 0.1072750762656883 corr: 0.27313401533392123
+ num. neurons : 54
+  epoch 16 loss: 0.10722869749422427 corr: 0.26954549122049326
+ num. neurons : 54
+  epoch 17 loss: 0.10693476341388844 corr: 0.29423791320028514
+ num. neurons : 54
+  epoch 18 loss: 0.10690222575340742 corr: 0.26391329397015556
+ num. neurons : 54
+  epoch 19 loss: 0.10676168494754368 corr: 0.2913893816030963
+ num. neurons : 54
+  epoch 20 loss: 0.1065932869028162 corr: 0.2785007263057196
+ num. neurons : 54

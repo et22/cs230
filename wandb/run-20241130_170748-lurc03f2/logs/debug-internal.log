@@ -1,0 +1,8 @@
+{"time":"2024-11-30T17:07:48.134192142Z","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-11-30T17:07:48.134239151Z","level":"INFO","msg":"created symlink","path":"/src/models/cs230/wandb/run-20241130_170748-lurc03f2/logs/debug-core.log"}
+{"time":"2024-11-30T17:07:48.248358753Z","level":"INFO","msg":"created new stream","id":"lurc03f2"}
+{"time":"2024-11-30T17:07:48.248406562Z","level":"INFO","msg":"stream: started","id":"lurc03f2"}
+{"time":"2024-11-30T17:07:48.248469641Z","level":"INFO","msg":"writer: Do: started","stream_id":"lurc03f2"}
+{"time":"2024-11-30T17:07:48.24851846Z","level":"INFO","msg":"sender: started","stream_id":"lurc03f2"}
+{"time":"2024-11-30T17:07:48.248499591Z","level":"INFO","msg":"handler: started","stream_id":"lurc03f2"}
+{"time":"2024-11-30T17:07:48.546557061Z","level":"INFO","msg":"Starting system monitor"}
