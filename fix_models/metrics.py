@@ -56,7 +56,7 @@ def get_decoder_accuracy(full_vid_embedder, full_neu_embedder, test_loader, moda
         neu_embeds[i, :] = (full_neu_embedder(torch.tensor(np.mean(np.array(real_fr[key]), 0).squeeze()).to(device))).detach().cpu().numpy()
         vid_embeds[i, :] = (np.array(pred_fr[key]).squeeze())
     
-    return top_k_accuracy(neu_embeds, vid_embeds, k=1)
+    return top_k_accuracy(neu_embeds, vid_embeds, k=5)
 
 # top k accuracy --- written by ChatGPT
 def top_k_accuracy(neu_embeds, vid_embeds, k):
